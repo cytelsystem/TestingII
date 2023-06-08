@@ -30,12 +30,12 @@ public class Procesoderegistro extends BasePage {
     public void register(){
         oprimir(buttomMyAccount);
         oprimir(LinkRegister);
-        teclear("xxxxxxxxxx",Nombre);
-        teclear("xxxxxxxxxx",Apellido);
-        teclear("xxxxxxxxxx@hotmail.com",Correo);
-        teclear("xxxxxxxxxx",Telefono);
-        teclear("xxxxxxxxxx",password);
-        teclear("xxxxxxxxxx",passwordConfirm);
+        teclear("xxxxxxxxxxxxxxx",Nombre);
+        teclear("xxxxxxxxxxxxxxx",Apellido);
+        teclear("xxxxxxxxxxxxxxx@hotmail.com",Correo);
+        teclear("xxxxxxxxxxxxxxx",Telefono);
+        teclear("xxxxxxxxxxxxxxx",password);
+        teclear("xxxxxxxxxxxxxxx",passwordConfirm);
         oprimir(SuscribeNo);
         oprimir(SuscribePrivacyPolicy);
         oprimir(Continuar);
@@ -45,12 +45,12 @@ public class Procesoderegistro extends BasePage {
     public void registerFail(){
         oprimir(buttomMyAccount);
         oprimir(LinkRegister);
-        teclear("xxxxxxxxx",Nombre);
-        teclear("xxxxxxxxx",Apellido);
-        teclear("xxxxxxxxx@hotmail.com",Correo);
-        teclear("xxxxxxxxx",Telefono);
-        teclear("xxxxxxxxx",password);
-        teclear("xxxxxxxxx",passwordConfirm);
+        teclear("xxxxxxxxxxxxxxx",Nombre);
+        teclear("xxxxxxxxxxxxxxx",Apellido);
+        teclear("xxxxxxxxxxxxxxx@hotmail.com",Correo);
+        teclear("xxxxxxxxxxxxxxx",Telefono);
+        teclear("xxxxxxxxxxxxxxx",password);
+        teclear("xxxxxxxxxxxxxxx",passwordConfirm);
         oprimir(SuscribeNo);
         oprimir(SuscribePrivacyPolicy);
         oprimir(Continuar);

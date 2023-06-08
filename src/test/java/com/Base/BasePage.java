@@ -49,14 +49,7 @@ public class BasePage {
 		System.out.println("Texto : " + res );
 	}
 
-	public String obtenerTextoConcatenado(By locator1, By locator2, By locator3) {
-		String texto1 = driver.findElement(locator1).getText();
-		String texto2 = driver.findElement(locator2).getText();
-		String texto3 = driver.findElement(locator3).getText();
-		String textoConcatenado = texto1 + texto2 + texto3;
-		System.out.println("Texto concatenado: " + textoConcatenado);
-		return textoConcatenado;
-	}
+
 	public void comparar (By locator, String texto) {
 		String res = driver.findElement(locator).getText();
 		assertTrue(res.contains(texto));
