@@ -1,4 +1,4 @@
-package RestAssured;
+package RestAssured.Base;
 
 import org.junit.Assert;
 import org.junit.Test;
@@ -15,11 +15,11 @@ public class testGet {
     @Test
     public void test01() {
 
-        System.out.println(response.getBody().asString());
-        System.out.println(response.getStatusCode());
-        System.out.println(response.getStatusLine());
-        System.out.println(response.getHeader("content-type"));
-        System.out.println(response.getTime());
+//        System.out.println(response.getBody().asString());
+//        System.out.println(response.getStatusCode());
+//        System.out.println(response.getStatusLine());
+//        System.out.println(response.getHeader("content-type"));
+//        System.out.println(response.getTime());
     }
     @Test
     public void test02() {
@@ -37,8 +37,10 @@ public class testGet {
     public void test04() {
 
         response.then().statusCode(200).assertThat()
-                .body("politicas[0].idPolitica[0]", equalTo(26),
-                        "politicas[0].titulo[0]",equalTo("Normas de la casa"));
+                .body(
+                    "politicas[0].idPolitica[0]", equalTo(26),
+                "politicas[0].titulo[0]",equalTo("Normas de la casa")
+                    );
     }
     @Test
     public void test05(){

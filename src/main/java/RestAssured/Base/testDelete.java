@@ -1,4 +1,4 @@
-package RestAssured;
+package RestAssured.Base;
 
 
 import org.junit.Test;

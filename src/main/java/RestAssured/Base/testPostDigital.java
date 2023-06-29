@@ -1,19 +1,22 @@
-package RestAssured;
+package RestAssured.Base;
 
+import io.restassured.http.ContentType;
 import org.json.simple.JSONObject;
 import org.junit.Test;
 
-import io.restassured.http.ContentType;
+import static io.restassured.RestAssured.given;
 
-import static io.restassured.RestAssured.*;
-
-public class testPut {
+public class testPostDigital {
     @Test
     public void Test01() {
         JSONObject request = new JSONObject();
 
-        request.put("name", "morpheus");
-        request.put("job", "zion resident");
+
+        request.put("nombre", "hector");
+        request.put("apellido", "moreno");
+        request.put("email", "hectorjaviermorenohr@gmail.com");
+        request.put("contrasena", "1234567");
+
 
         System.out.println(request.toJSONString());
 
@@ -21,7 +24,7 @@ public class testPut {
                 log().all().contentType(ContentType.JSON).
                 body(request.toJSONString()).
                 when().
-                put("https://reqres.in/api/users/2").
+                post("http://testing.ctd.academy:8000/auth/nuevoUsuario").
                 then().
                 statusCode(200).log().all();
     }

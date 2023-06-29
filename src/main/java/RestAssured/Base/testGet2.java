@@ -1,4 +1,4 @@
-package RestAssured;
+package RestAssured.Base;
 
 import static io.restassured.RestAssured.get;
 import static org.hamcrest.Matchers.equalTo;
@@ -32,7 +32,10 @@ public class testGet2 {
 
         response.then().statusCode(200).assertThat()
                 .body("data[0].id", equalTo(7),
-                        "data[0].first_name",equalTo("Michael"));
+                        "data[0].first_name",equalTo("Michael"),
+                        "data[0].last_name",equalTo("Lawson")
+
+                );
     }
     @Test
     public void test04() {
