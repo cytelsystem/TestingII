@@ -1,24 +1,26 @@
 package com.Tests;
 
 
+import com.Pages.AbrirNuevaCuenta;
 import com.Pages.Procesoderegistro;
-import com.Pages.ProcesoderegistroAnterior;
-import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.Test;
 import org.openqa.selenium.WebDriver;
 
-public class TestProcesoderegistro {
+public class TestAbrirNuevaCuenta {
     WebDriver driver;
+    AbrirNuevaCuenta AbrirNuevaCuenta;
+
     Procesoderegistro procesoderegistro;
 
 
     @BeforeEach
     public void setUp (){
-        procesoderegistro = new Procesoderegistro(driver);
-        driver = procesoderegistro.chromeDriverConnection();
-        procesoderegistro.link("https://parabank.parasoft.com/parabank/index.htm");
+        AbrirNuevaCuenta = new AbrirNuevaCuenta(driver);
+        driver = AbrirNuevaCuenta.chromeDriverConnection();
+        AbrirNuevaCuenta.link("https://parabank.parasoft.com/parabank/index.htm");
+
 
     }
 //    @AfterEach
@@ -29,7 +31,7 @@ public class TestProcesoderegistro {
     @Tag("EjecucionRegresion")
     public void Test01(){
 
-        procesoderegistro.register();
+        AbrirNuevaCuenta.register();
     }
 
 

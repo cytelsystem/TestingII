@@ -35,9 +35,9 @@ public class Procesoderegistro extends BasePage {
         teclear("0000",ZipCode);
         teclear("34015616",Telefono);
         teclear("0000",Ssn);
-        teclear("hectorjm11",Usuario);
-        teclear("123456711",password);
-        teclear("123456711",passwordConfirm);
+        teclear("hectorjm11111",Usuario);
+        teclear("123456711111",password);
+        teclear("123456711111",passwordConfirm);
         oprimir(Registrar);
         esperaExplicta(5,resultadoOk,"Your account was created successfully. You are now logged in.");
         comparar(resultadoOk,"Your account was created successfully. You are now logged in.");

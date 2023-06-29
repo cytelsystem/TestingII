@@ -6,8 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="5834d9ca-8a3a-4b93-b56f-a49ca70acf9f" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/Pages/Procesoderegistro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/Pages/ProcesoderegistroAnterior.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/Tests/TestProcesoderegistro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/Tests/TestProcesoderegistroAnterior.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/Pages/Procesoderegistro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/Pages/Procesoderegistro.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/Tests/TestProcesoderegistro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/Tests/TestProcesoderegistro.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/com/Pages/Procesoderegistro.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/Pages/Procesoderegistro.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/com/Tests/TestProcesoderegistro.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/Tests/TestProcesoderegistro.class" afterDir="false" />
     </list>
@@ -30,6 +30,9 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2RDqwqovFVocPmKbpJpHovYFFMN" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -58,7 +61,22 @@
       <recent name="RestAssured" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.TestProcesoderegistro">
+  <component name="RunManager" selected="JUnit.TestAbrirNuevaCuenta">
+    <configuration name="TestAbrirNuevaCuenta" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="patronPOM" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.Tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.Tests" />
+      <option name="MAIN_CLASS_NAME" value="com.Tests.TestAbrirNuevaCuenta" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TestBusquedayadiciondelproductoalacesta" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="patronPOM" />
       <extension name="coverage">
@@ -120,29 +138,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="testPostP4.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="patronPOM" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="RestAssured.Base.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="RestAssured" />
-      <option name="MAIN_CLASS_NAME" value="RestAssured.testPostP4" />
-      <option name="METHOD_NAME" value="test01" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TestAbrirNuevaCuenta" />
         <item itemvalue="JUnit.TestProcesoderegistro" />
         <item itemvalue="JUnit.TestProcesoderegistro.Test01" />
         <item itemvalue="JUnit.TestBusquedayadiciondelproductoalacesta" />
         <item itemvalue="JUnit.testGetP5" />
-        <item itemvalue="JUnit.testPostP4.test01" />
       </list>
     </recent_temporary>
   </component>
