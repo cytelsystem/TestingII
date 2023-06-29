@@ -5,13 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5834d9ca-8a3a-4b93-b56f-a49ca70acf9f" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/RestAssured/testDelete.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/RestAssured/Base/testDelete.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/RestAssured/testGet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/RestAssured/Base/testGet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/RestAssured/testGet2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/RestAssured/Base/testGet2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/RestAssured/testPost.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/RestAssured/Base/testPost.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/RestAssured/testPost2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/RestAssured/testPut.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/RestAssured/Base/testPut.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/RestAssured/testDelete.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/RestAssured/testGet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/RestAssured/testGet2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/RestAssured/testGetP1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/RestAssured/testGetP1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/RestAssured/testGetP2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/RestAssured/testGetP4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/RestAssured/testPost.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/RestAssured/testPostDigital.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/RestAssured/testPostP2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/RestAssured/testPostP2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/RestAssured/testPut.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,19 +63,18 @@
       <recent name="RestAssured" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.testGetP5">
-    <configuration name="testGetP1.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.TestBusquedayadiciondelproductoalacesta">
+    <configuration name="TestBusquedayadiciondelproductoalacesta" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="patronPOM" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="RestAssured.Base.*" />
+          <option name="PATTERN" value="com.Tests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="RestAssured" />
-      <option name="MAIN_CLASS_NAME" value="RestAssured.testGetP1" />
-      <option name="METHOD_NAME" value="test01" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="PACKAGE_NAME" value="com.Tests" />
+      <option name="MAIN_CLASS_NAME" value="com.Tests.TestBusquedayadiciondelproductoalacesta" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -140,11 +144,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TestBusquedayadiciondelproductoalacesta" />
         <item itemvalue="JUnit.testGetP5" />
         <item itemvalue="JUnit.testPostP4.test01" />
         <item itemvalue="JUnit.testGetP3.test01" />
         <item itemvalue="JUnit.testGetP2.test01" />
-        <item itemvalue="JUnit.testGetP1.test01" />
       </list>
     </recent_temporary>
   </component>
