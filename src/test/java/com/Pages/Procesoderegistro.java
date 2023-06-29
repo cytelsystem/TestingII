@@ -5,57 +5,42 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
 public class Procesoderegistro extends BasePage {
-     By buttomMyAccount = By.xpath("//*[@id=\"top-links\"]/ul/li[2]/a");
-    By LinkRegister = By.xpath("//*[@id=\"top-links\"]/ul/li[2]/ul/li[1]/a");
-    By Nombre = By.id("input-firstname");
-    By Apellido = By.id("input-lastname");
+     By LinkRegister = By.xpath("//*[@id=\"loginPanel\"]/p[2]/a");
 
-    By Correo = By.cssSelector("#input-email");
-
-    By Telefono = By.id("input-telephone");
-
-    By password = By.id("input-password");
-    By passwordConfirm = By.id("input-confirm");
-    By SuscribeNo = By.xpath("//*[@id=\"content\"]/form/fieldset[3]/div/div/label[2]/input");
-    By SuscribePrivacyPolicy = By.xpath("//*[@id=\"content\"]/form/div/div/input[1]");
-    By Continuar = By.xpath("//*[@id=\"content\"]/form/div/div/input[2]");
-
-    By resultadoOk = By.xpath("//*[@id=\"content\"]/p[1]"); // Congratulations! Your new account has been successfully created!
-    By resultadoUsuarioExistente = By.xpath("//*[@id=\"account-register\"]/div[1]");; //  Warning: E-Mail Address is already registered!
+    By Nombre = By.id("customer.firstName");
+    By Apellido = By.id("customer.lastName");
+    By Direccion = By.id("customer.address.street");
+    By Ciudad = By.id("customer.address.city");
+    By Estado = By.id("customer.address.state");
+    By ZipCode = By.id("customer.address.zipCode");
+    By Telefono = By.id("customer.phoneNumber");
+    By Ssn = By.id("customer.ssn");
+    By Usuario = By.id("customer.username");
+    By password = By.id("customer.password");
+    By passwordConfirm = By.id("repeatedPassword");
+    By Registrar = By.xpath("//*[@id=\"customerForm\"]/table/tbody/tr[13]/td[2]/input");
+    By resultadoOk = By.xpath("//*[@id=\"rightPanel\"]/p"); // Your account was created successfully. You are now logged in.
 
     public Procesoderegistro(WebDriver driver) {
         super();
     }
 
     public void register(){
-        oprimir(buttomMyAccount);
         oprimir(LinkRegister);
-        teclear("xxxxxxxxxxxxxxxxx",Nombre);
-        teclear("xxxxxxxxxxxxxxxxx",Apellido);
-        teclear("xxxxxxxxxxxxxxxxx@hotmail.com",Correo);
-        teclear("xxxxxxxxxxxxxxxxx",Telefono);
-        teclear("xxxxxxxxxxxxxxxxx",password);
-        teclear("xxxxxxxxxxxxxxxxx",passwordConfirm);
-        oprimir(SuscribeNo);
-        oprimir(SuscribePrivacyPolicy);
-        oprimir(Continuar);
-        esperaExplicta(5,resultadoOk,"Congratulations! Your new account has been successfully created!");
-        comparar(resultadoOk,"Congratulations! Your new account has been successfully created!");
+        teclear("hectorj",Nombre);
+        teclear("Moreno",Apellido);
+        teclear("Av quito y pongo",Direccion);
+        teclear("Bogota",Ciudad);
+        teclear("Cundinamarca",Estado);
+        teclear("0000",ZipCode);
+        teclear("34015616",Telefono);
+        teclear("0000",Ssn);
+        teclear("hectorjm11",Usuario);
+        teclear("123456711",password);
+        teclear("123456711",passwordConfirm);
+        oprimir(Registrar);
+        esperaExplicta(5,resultadoOk,"Your account was created successfully. You are now logged in.");
+        comparar(resultadoOk,"Your account was created successfully. You are now logged in.");
     }
-    public void registerFail(){
-        oprimir(buttomMyAccount);
-        oprimir(LinkRegister);
-        teclear("xxxxxxxxxxxxxxxxx",Nombre);
-        teclear("xxxxxxxxxxxxxxxxx",Apellido);
-        teclear("xxxxxxxxxxxxxxxxx@hotmail.com",Correo);
-        teclear("xxxxxxxxxxxxxxxxx",Telefono);
-        teclear("xxxxxxxxxxxxxxxxx",password);
-        teclear("xxxxxxxxxxxxxxxxx",passwordConfirm);
-        oprimir(SuscribeNo);
-        oprimir(SuscribePrivacyPolicy);
-        oprimir(Continuar);
-        esperaExplicta(10,resultadoUsuarioExistente,"Warning: E-Mail Address is already registered!");
-        obtenerTexto(resultadoUsuarioExistente);
-        comparar(resultadoUsuarioExistente,"Warning: E-Mail Address is already registered!");
-    }
+
 }

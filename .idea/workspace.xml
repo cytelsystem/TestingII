@@ -6,17 +6,10 @@
   <component name="ChangeListManager">
     <list default="true" id="5834d9ca-8a3a-4b93-b56f-a49ca70acf9f" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/RestAssured/testDelete.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/RestAssured/testGet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/RestAssured/testGet2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/RestAssured/testGetP1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/RestAssured/testGetP1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/RestAssured/testGetP2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/RestAssured/testGetP4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/RestAssured/testPost.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/RestAssured/testPostDigital.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/RestAssured/testPostP2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/RestAssured/testPostP2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/RestAssured/testPut.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/Pages/Procesoderegistro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/Pages/ProcesoderegistroAnterior.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/Tests/TestProcesoderegistro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/Tests/TestProcesoderegistroAnterior.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/Pages/Procesoderegistro.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/Pages/Procesoderegistro.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/Tests/TestProcesoderegistro.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/Tests/TestProcesoderegistro.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,10 +53,12 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.Tests" />
+      <recent name="com.Pages" />
       <recent name="RestAssured" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.TestBusquedayadiciondelproductoalacesta">
+  <component name="RunManager" selected="JUnit.TestProcesoderegistro">
     <configuration name="TestBusquedayadiciondelproductoalacesta" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="patronPOM" />
       <extension name="coverage">
@@ -79,33 +74,32 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="testGetP2.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestProcesoderegistro" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="patronPOM" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="RestAssured.Base.*" />
+          <option name="PATTERN" value="com.Tests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="RestAssured" />
-      <option name="MAIN_CLASS_NAME" value="RestAssured.testGetP2" />
-      <option name="METHOD_NAME" value="test01" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="PACKAGE_NAME" value="com.Tests" />
+      <option name="MAIN_CLASS_NAME" value="com.Tests.TestProcesoderegistro" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="testGetP3.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestProcesoderegistro.Test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="patronPOM" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="RestAssured.Base.*" />
+          <option name="PATTERN" value="com.Tests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="RestAssured" />
-      <option name="MAIN_CLASS_NAME" value="RestAssured.testGetP3" />
-      <option name="METHOD_NAME" value="test01" />
+      <option name="PACKAGE_NAME" value="com.Tests" />
+      <option name="MAIN_CLASS_NAME" value="com.Tests.TestProcesoderegistro" />
+      <option name="METHOD_NAME" value="Test01" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -144,11 +138,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TestProcesoderegistro" />
+        <item itemvalue="JUnit.TestProcesoderegistro.Test01" />
         <item itemvalue="JUnit.TestBusquedayadiciondelproductoalacesta" />
         <item itemvalue="JUnit.testGetP5" />
         <item itemvalue="JUnit.testPostP4.test01" />
-        <item itemvalue="JUnit.testGetP3.test01" />
-        <item itemvalue="JUnit.testGetP2.test01" />
       </list>
     </recent_temporary>
   </component>
