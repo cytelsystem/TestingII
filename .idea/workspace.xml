@@ -6,29 +6,18 @@
   <component name="ChangeListManager">
     <list default="true" id="5834d9ca-8a3a-4b93-b56f-a49ca70acf9f" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/propierties.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/RestAssured/testPostP2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/RestAssured/testPostP2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/Pages/AbrirNuevaCuenta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/Pages/AbrirNuevaCuenta.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/Pages/ActividadCuenta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/Pages/ActividadCuenta.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/Pages/Busquedayadiciondelproductoalacesta.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/Pages/Procesoderegistro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/Pages/Procesoderegistro.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/Pages/ProcesoderegistroAnterior.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/Pages/ResumenCuenta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/Pages/ResumenCuenta.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/Pages/TransferenciaFondos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/Pages/TransferenciaFondos.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/Tests/TestAbrirNuevaCuenta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/Tests/TestAbrirNuevaCuenta.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/Tests/TestActividadCuenta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/Tests/TestActividadCuenta.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/Tests/TestBusquedayadiciondelproductoalacesta.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/Tests/TestProcesoderegistro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/Tests/TestProcesoderegistro.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/Tests/TestProcesoderegistroAnterior.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/RestAssured/testPostP2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/RestAssured/testPostP2.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/com/Pages/AbrirNuevaCuenta.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/Pages/AbrirNuevaCuenta.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/Pages/Busquedayadiciondelproductoalacesta.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/Pages/ActividadCuenta.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/Pages/ActividadCuenta.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/com/Pages/Procesoderegistro.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/Pages/Procesoderegistro.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/Pages/ProcesoderegistroAnterior.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/com/Pages/ResumenCuenta.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/Pages/ResumenCuenta.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/Tests/TestAbrirNuevaCuenta.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/Tests/TestAbrirNuevaCuenta.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/Tests/TestBusquedayadiciondelproductoalacesta.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/Tests/TestProcesoderegistro.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/Tests/TestProcesoderegistro.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/Tests/TestProcesoderegistroAnterior.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/Pages/TransferenciaFondos.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/Pages/TransferenciaFondos.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,7 +69,7 @@
       <recent name="RestAssured" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.TestActividadCuenta">
+  <component name="RunManager" selected="JUnit.testPostP2">
     <configuration name="TestAbrirNuevaCuenta" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="patronPOM" />
       <extension name="coverage">
@@ -96,61 +85,61 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestActividadCuenta" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="testGetP3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="patronPOM" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.Tests.*" />
+          <option name="PATTERN" value="RestAssured.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.Tests" />
-      <option name="MAIN_CLASS_NAME" value="com.Tests.TestActividadCuenta" />
+      <option name="PACKAGE_NAME" value="RestAssured" />
+      <option name="MAIN_CLASS_NAME" value="RestAssured.testGetP3" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestProcesoderegistro" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="testGetP5" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="patronPOM" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.Tests.*" />
+          <option name="PATTERN" value="RestAssured.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.Tests" />
-      <option name="MAIN_CLASS_NAME" value="com.Tests.TestProcesoderegistro" />
+      <option name="PACKAGE_NAME" value="RestAssured" />
+      <option name="MAIN_CLASS_NAME" value="RestAssured.testGetP5" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestResumenCuenta" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="testPostP2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="patronPOM" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.Tests.*" />
+          <option name="PATTERN" value="RestAssured.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.Tests" />
-      <option name="MAIN_CLASS_NAME" value="com.Tests.TestResumenCuenta" />
+      <option name="PACKAGE_NAME" value="RestAssured" />
+      <option name="MAIN_CLASS_NAME" value="RestAssured.testPostP2" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestTransferenciaFondos" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="testPostP4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="patronPOM" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.Tests.*" />
+          <option name="PATTERN" value="RestAssured.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.Tests" />
-      <option name="MAIN_CLASS_NAME" value="com.Tests.TestTransferenciaFondos" />
+      <option name="PACKAGE_NAME" value="RestAssured" />
+      <option name="MAIN_CLASS_NAME" value="RestAssured.testPostP4" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -158,11 +147,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.TestActividadCuenta" />
-        <item itemvalue="JUnit.TestProcesoderegistro" />
-        <item itemvalue="JUnit.TestTransferenciaFondos" />
-        <item itemvalue="JUnit.TestResumenCuenta" />
+        <item itemvalue="JUnit.testPostP2" />
         <item itemvalue="JUnit.TestAbrirNuevaCuenta" />
+        <item itemvalue="JUnit.testGetP5" />
+        <item itemvalue="JUnit.testPostP4" />
+        <item itemvalue="JUnit.testGetP3" />
       </list>
     </recent_temporary>
   </component>

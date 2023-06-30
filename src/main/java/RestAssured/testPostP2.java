@@ -9,7 +9,7 @@ import static org.hamcrest.Matchers.hasItems;
 
 public class testPostP2 {
 
-    String URL = "https://parabank.parasoft.com/parabank/services_proxy/bank/createAccount?customerId=16541&newAccountType=0&fromAccountId=19449";
+    String URL = "https://parabank.parasoft.com/parabank/services_proxy/bank/createAccount?customerId=13655&newAccountType=0&fromAccountId=15342";
 
 
     Response response = given().auth()

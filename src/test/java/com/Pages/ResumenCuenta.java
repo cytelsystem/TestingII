@@ -8,8 +8,8 @@ public class ResumenCuenta extends BasePage {
 
 //***********************************************************************************//
 
-    public String nombreUsuario = "hectorjm1";
-    public String passwordUsuario = "12345671";
+    public String nombreUsuario = "hectorjm";
+    public String passwordUsuario = "1234567";
 
 
 //***********************************************************************************//
