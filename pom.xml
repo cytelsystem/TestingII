@@ -15,7 +15,6 @@
   <dependencies>
     <!--//***********************************************************************//-->
 
-<!--    Solo se adiciono esta dependencia para las pruebas de frontEnd de selenium si no funciona verificar las versiones-->
     <dependency>
       <groupId>org.seleniumhq.selenium</groupId>
       <artifactId>selenium-java</artifactId>
@@ -67,6 +66,14 @@
       <version>5.1.1</version>
       <scope>compile</scope>
     </dependency>
+    <!--//***********************************************************************//-->
+    <!-- https://mvnrepository.com/artifact/com.aventstack/extentreports -->
+    <dependency>
+      <groupId>com.aventstack</groupId>
+      <artifactId>extentreports</artifactId>
+      <version>5.0.9</version>
+    </dependency>
+
     <!--//***********************************************************************//-->
   </dependencies>
 </project>

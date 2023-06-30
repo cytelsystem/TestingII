@@ -6,18 +6,39 @@
   <component name="ChangeListManager">
     <list default="true" id="5834d9ca-8a3a-4b93-b56f-a49ca70acf9f" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/RestAssured/testPostP2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/RestAssured/testPostP2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/Pages/AbrirNuevaCuenta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/Pages/AbrirNuevaCuenta.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/Pages/ActividadCuenta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/Pages/ActividadCuenta.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/Pages/Procesoderegistro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/Pages/Procesoderegistro.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/Pages/ResumenCuenta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/Pages/ResumenCuenta.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/Pages/TransferenciaFondos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/Pages/TransferenciaFondos.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/RestAssured/testPostP2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/RestAssured/testPostP2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/Pages/AbrirNuevaCuenta.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/Pages/AbrirNuevaCuenta.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/Pages/ActividadCuenta.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/Pages/ActividadCuenta.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/Pages/Procesoderegistro.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/Pages/Procesoderegistro.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/Pages/ResumenCuenta.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/Pages/ResumenCuenta.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/Pages/TransferenciaFondos.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/Pages/TransferenciaFondos.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/RestAssured/Base/testDelete.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/RestAssured/Base/testGet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/RestAssured/Base/testGet2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/RestAssured/Base/testPost.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/RestAssured/Base/testPostDigital.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/RestAssured/Base/testPut.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/RestAssured/testGetP1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/RestAssured/testGetP1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/RestAssured/testGetP3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/RestAssured/testGetP3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/RestAssured/testGetP5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/RestAssured/testGetP5.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/RestAssured/testPostP2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/RestAssured/testPostP2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/RestAssured/testPostP4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/RestAssured/testPostP4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/Tests/TestAbrirNuevaCuenta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/Tests/TestAbrirNuevaCuenta.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/Tests/TestActividadCuenta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/Tests/TestActividadCuenta.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/Tests/TestProcesoderegistro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/Tests/TestProcesoderegistro.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/Tests/TestResumenCuenta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/Tests/TestResumenCuenta.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/Tests/TestTransferenciaFondos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/Tests/TestTransferenciaFondos.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/RestAssured/Base/testDelete.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/RestAssured/Base/testGet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/RestAssured/Base/testGet2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/RestAssured/Base/testPost.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/RestAssured/Base/testPostDigital.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/RestAssured/Base/testPut.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/RestAssured/testGetP1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/RestAssured/testGetP3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/RestAssured/testGetP5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/RestAssured/testPostP2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/RestAssured/testPostP4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/Tests/TestAbrirNuevaCuenta.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/Tests/TestAbrirNuevaCuenta.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/Tests/TestActividadCuenta.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/Tests/TestActividadCuenta.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/Tests/TestProcesoderegistro.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/Tests/TestProcesoderegistro.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/Tests/TestResumenCuenta.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/Tests/TestResumenCuenta.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/Tests/TestTransferenciaFondos.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/Tests/TestTransferenciaFondos.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,23 +66,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.17&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;File.Encoding&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "E:/HECTORJM/Proyectos/java/testingII/src/test/java",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.17",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "File.Encoding",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.Tests" />
@@ -69,8 +91,8 @@
       <recent name="RestAssured" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.testPostP2">
-    <configuration name="TestAbrirNuevaCuenta" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.TestTransferenciaFondos">
+    <configuration name="TestProcesoderegistro" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="patronPOM" />
       <extension name="coverage">
         <pattern>
@@ -79,13 +101,43 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.Tests" />
-      <option name="MAIN_CLASS_NAME" value="com.Tests.TestAbrirNuevaCuenta" />
+      <option name="MAIN_CLASS_NAME" value="com.Tests.TestProcesoderegistro" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="testGetP3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestResumenCuenta" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="patronPOM" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.Tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.Tests" />
+      <option name="MAIN_CLASS_NAME" value="com.Tests.TestResumenCuenta" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestTransferenciaFondos" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="patronPOM" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.Tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.Tests" />
+      <option name="MAIN_CLASS_NAME" value="com.Tests.TestTransferenciaFondos" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="testGetP1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="patronPOM" />
       <extension name="coverage">
         <pattern>
@@ -94,22 +146,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="RestAssured" />
-      <option name="MAIN_CLASS_NAME" value="RestAssured.testGetP3" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="testGetP5" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="patronPOM" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="RestAssured.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="RestAssured" />
-      <option name="MAIN_CLASS_NAME" value="RestAssured.testGetP5" />
+      <option name="MAIN_CLASS_NAME" value="RestAssured.testGetP1" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -130,28 +167,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="testPostP4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="patronPOM" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="RestAssured.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="RestAssured" />
-      <option name="MAIN_CLASS_NAME" value="RestAssured.testPostP4" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TestTransferenciaFondos" />
+        <item itemvalue="JUnit.TestResumenCuenta" />
+        <item itemvalue="JUnit.TestProcesoderegistro" />
+        <item itemvalue="JUnit.testGetP1" />
         <item itemvalue="JUnit.testPostP2" />
-        <item itemvalue="JUnit.TestAbrirNuevaCuenta" />
-        <item itemvalue="JUnit.testGetP5" />
-        <item itemvalue="JUnit.testPostP4" />
-        <item itemvalue="JUnit.testGetP3" />
       </list>
     </recent_temporary>
   </component>

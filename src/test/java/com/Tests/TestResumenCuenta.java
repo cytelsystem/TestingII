@@ -3,6 +3,7 @@ package com.Tests;
 
 import com.Pages.ResumenCuenta;
 import com.Pages.Procesoderegistro;
+import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.Test;
@@ -22,10 +23,10 @@ public class TestResumenCuenta {
 
 
     }
-//    @AfterEach
-//    public void tearDown (){
-//        driver.quit();
-//    }
+    @AfterEach
+    public void tearDown (){
+        driver.quit();
+    }
     @Test
     @Tag("EjecucionRegresion")
     public void Test01(){
