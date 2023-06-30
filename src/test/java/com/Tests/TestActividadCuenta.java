@@ -27,7 +27,7 @@ public class TestActividadCuenta {
 //    }
     @Test
     @Tag("EjecucionRegresion")
-    public void Test01(){
+    public void Test01() throws InterruptedException {
 
         ActividadCuenta.register();
     }

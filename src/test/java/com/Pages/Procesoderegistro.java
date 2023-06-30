@@ -1,10 +1,23 @@
 package com.Pages;
 
 import com.Base.BasePage;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
+
+
 public class Procesoderegistro extends BasePage {
+
+//***********************************************************************************//
+
+    public String nombreUsuario = "hectorjm1";
+    public String passwordUsuario = "12345671";
+
+
+//***********************************************************************************//
+
+
      By LinkRegister = By.xpath("//*[@id=\"loginPanel\"]/p[2]/a");
 
     By Nombre = By.id("customer.firstName");
@@ -35,9 +48,9 @@ public class Procesoderegistro extends BasePage {
         teclear("0000",ZipCode);
         teclear("34015616",Telefono);
         teclear("0000",Ssn);
-        teclear("hectorjm11111",Usuario);
-        teclear("123456711111",password);
-        teclear("123456711111",passwordConfirm);
+        teclear(nombreUsuario,Usuario);
+        teclear(passwordUsuario,password);
+        teclear(passwordUsuario,passwordConfirm);
         oprimir(Registrar);
         esperaExplicta(5,resultadoOk,"Your account was created successfully. You are now logged in.");
         comparar(resultadoOk,"Your account was created successfully. You are now logged in.");

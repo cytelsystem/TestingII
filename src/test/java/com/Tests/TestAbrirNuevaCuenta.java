@@ -12,9 +12,6 @@ public class TestAbrirNuevaCuenta {
     WebDriver driver;
     AbrirNuevaCuenta AbrirNuevaCuenta;
 
-    Procesoderegistro procesoderegistro;
-
-
     @BeforeEach
     public void setUp (){
         AbrirNuevaCuenta = new AbrirNuevaCuenta(driver);
